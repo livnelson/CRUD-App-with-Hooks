@@ -1,0 +1,153 @@
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  text-align: center;
+  --form-control-color: #68c2da;
+  padding-bottom: 60px;
+}
+
+.App-header {
+  min-height: 80px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 10px;
+}
+
+.App-link {
+  color: #68c2da;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 0px;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+h2 {
+  color: #dedede;
+  text-align: center;
+  line-height: 32px;
+  font-size: 32px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #101010;
+  font-size: 22px;
+}
+
+h4 {
+  color: #101010;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+.form-row {
+  background: white;
+  border: 1px solid #68c2da;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+input {
+  border: 1px solid #2d2d2d;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+input:focus { 
+  outline: none !important;
+   border-color: #68c2da;
+}
+
+input:hover{
+  cursor: pointer;
+  border-color: #68c2da;
+}
+
+
+label {
+  color: #2d2d2d;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+  font-family: sans-serif;
+  font-size: 12px;
+  height: 30px;
+}
+
+button {
+  background-color: #68c2da;
+  color: white;
+  font-size: 14px;
+  margin: 20px 20px;
+  border-radius: 5px;
+  padding: 10px 15px; 
+  align-items: left;
+  border: #68c2da
+}
+
+button:hover {
+  background-color: #cccccc;
+  color: white;
+  border: #68c2da;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #282c34;
+}
+
+
+#task-card {
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  max-width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+/* input[type="radio"]{
+  margin: 0 15px 10px 2px;
+  text-align: left;
+} */
